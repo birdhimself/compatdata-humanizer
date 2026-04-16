@@ -1,0 +1,5 @@
+# Build output
+/compatdata-humanizer
+
+# IDE/editor folders
+.idea
