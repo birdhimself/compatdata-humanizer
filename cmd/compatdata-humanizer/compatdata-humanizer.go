@@ -13,7 +13,12 @@ import (
 	"github.com/birdhimself/compatdata-humanizer/internal/writer"
 )
 
+var version string
+
 func main() {
+	cli.Title("Compatdata Humanizer")
+	cli.Info("Version %s", version)
+
 	_ = config.Get()
 
 	libFiles, err := steam.LibraryFiles()
