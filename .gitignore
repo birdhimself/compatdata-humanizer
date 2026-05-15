@@ -1,5 +1,5 @@
 # Build output
-/compatdata-humanizer
+/dist
 
 # IDE/editor folders
 .idea
